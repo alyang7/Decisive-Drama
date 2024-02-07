@@ -303,6 +303,17 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .up-grid-x1 {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: pink;
+    margin: 0 5px 10px 5px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
   
   .performance-pic {
     justify-content: center;
