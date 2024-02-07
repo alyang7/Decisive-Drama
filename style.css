@@ -74,6 +74,7 @@ body {
   
   .space { margin-bottom: 5%; }
   .half-space { margin-bottom: 25%; }
+  .bottom-space { margin-bottom: 20px; }
   
   .pic-center {
     display: block;
@@ -335,9 +336,18 @@ body {
   .underline { text-decoration: underline; }
     
   .icon {
+    display: flex;
+    flex: 1;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .icon-size {
     flex: 1;
     height: 200px;
     object-fit: contain;
     margin-bottom: 40px;
+    align-items: center;
   }
+  
   
